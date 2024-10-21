@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc " Programmer, c'est comme construire un puzzle multilingue" -o output
+puts "Programming is like building a multilingual puzzle"
