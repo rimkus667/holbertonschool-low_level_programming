@@ -1,4 +1,5 @@
- if (n > 0)
+#include <stdlib.h>
+#include <time.h> if (n > 0)
     {
         printf("%d is positive\n", n);
     }
