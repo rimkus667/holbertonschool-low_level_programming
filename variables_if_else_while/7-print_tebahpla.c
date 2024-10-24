@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
-* main - prints the lowercase alphabet in reverse
+* main - prints the alphabet in reverse order
 *
-* Return: Always 0 Success
+* Description: This program prints all the letters of
+* the alphabet in descending order, from 'z' to 'a'.
+*
+* Return: 0 if the program runs successfully
 */
 int main(void)
 {
