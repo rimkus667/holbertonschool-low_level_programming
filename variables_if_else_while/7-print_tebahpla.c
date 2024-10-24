@@ -1,8 +1,6 @@
 #include <stdio.h>
-/* more headers goes there */
-/*betty style doc for function main goes there */
 /**
-* main - print the last digit of the number stored in the variable n
+* main - prints the lowercase alphabet in reverse
 *
 * Return: Always 0 Success
 */
@@ -12,7 +10,7 @@ char letter;
 for (letter = 'z'; letter => 'a'; letter--)
 {
 putchar('letter');
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
