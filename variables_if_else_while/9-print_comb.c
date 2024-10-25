@@ -9,6 +9,13 @@ int main()
 {
 int i;
 for ( i = 0; i <= 9; i++)
-putchar(" %d ",i); 
+if (i < 9)
+putchar(" %d ",i);
+{
+putchar(',');
+putchar(' ');
+}
+{
+putchar('\n');
 return 0;
 }
