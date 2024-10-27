@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-_abs - Calcule la valeur absolue d'un entier
-@n: L'entier a traiter
+* _abs - Calcule la valeur absolue d'un entier
+* @n: L'entier a traiter
 *
-Return: La valeur absolue de n
+* Return: La valeur absolue de n
 */
 int _abs(int n)
 {
