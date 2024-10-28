@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* 
+*
 * times_table - Affiche la table de mutplication de 9
 */
 void times_table(void)
