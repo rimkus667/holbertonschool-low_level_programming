@@ -6,8 +6,8 @@
 */
 void print_alphabet(void)
 {
-int b = 'a'
-for (b <= 'z'; b++);
+int b = 'a';
+for (b = 'a'; b <= 'z'; b++)
 _putchar(b);
 _putchar('\n');
 }
