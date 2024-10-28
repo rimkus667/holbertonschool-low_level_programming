@@ -5,7 +5,7 @@
  * @b: Le deuxieme entier
  * Return: La somme de a et b
  */
-Int add(int a, int b)
+int add(int a, int b)
 {
 return (a + b);
 }
