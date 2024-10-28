@@ -1,8 +1,7 @@
 #include "main.h"
 /**
 *
-* times_table - Affiche la table de mutplication de 9
-*/
+* times_table - Affiche la table de mutplication de 9 de 0 a 9 */
 void times_table(void)
 {
 int i, j, produit;
