@@ -1,11 +1,20 @@
 #include "main.h"
 /**
-* Affiche chaque minute de la journee de Jack Bauer
+* jack_bauer - Affiche chaque minute de la journee
 */
-Main - check the code*
-Return: Always 0.*/
-int main(void)
+void jack_bauer(void)
 {
-jack_bauer();
-return (0);
+int heures, minutes;
+for (heures = 0; heures < 24; heures++)
+{
+for (minutes = 0; minutes < 60; minutes++)
+{
+_putchar('0' + (heures / 10));
+_putchar('0' + (heures % 10));
+_putchar(':');
+_putchar('0' + (minutes / 10));
+_putchar('0' + (minutes % 10));
+_putchar('\n');
+}
+}
 }
