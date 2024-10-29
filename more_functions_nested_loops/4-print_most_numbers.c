@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_numbers -  Affiche les chiffres de 0 a 9
+ * print_most_numbers -  Affiche les chiffres de 0 a 9
  * sauf 2 et 4 
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 int i;
 for (i = 0; i <= 9; i++)
