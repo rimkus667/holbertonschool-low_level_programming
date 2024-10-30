@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_line - check the code
+ * @n : nombre de lignes 
  */
 void print_line(int n)
 {
@@ -13,9 +12,10 @@ _putchar('\n');
 }
 else
 {
-for (u = 0; u <= n; u++)
+for (u = 1; u <= n; u++)
 {
 _putchar('_');
 }
+_putchar('\n');
 }
 }
