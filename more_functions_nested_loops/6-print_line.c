@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - check the code
- * @n : nombre de lignes 
+ * @n : nombre de lignes
  */
 void print_line(int n)
 {
