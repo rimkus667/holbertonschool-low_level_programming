@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * print_diagonal - diagonal line
- * @n - nombre de slash
- * Return: 
+ * main - Imprimme de 0 a 100 avec conditions
+ * Description : mettre Fizz, Buzz et FizzBuzz
+ * Return: 0
  */
 int main(void)
 {
