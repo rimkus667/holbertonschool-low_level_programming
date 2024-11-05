@@ -22,8 +22,8 @@ else if (num % 5 == 0)
 printf("Buzz");
 }
 else
-printf("%d", i);
-if (i < 100)
+printf("%d", num);
+if (num < 100)
 printf(" ");
 }
 printf("\n");
