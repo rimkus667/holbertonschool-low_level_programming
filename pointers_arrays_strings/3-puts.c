@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _puts - check the code
  * @: varioable
@@ -7,6 +6,7 @@
  */
 void _puts(char *str)
 {
+int _putchar(char c);
 int i;
 for (i = 0; str[i] != '\0'; str++)
 _putchar(str[i]);
