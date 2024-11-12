@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - check 
+ * main - check
  * @argc: The number of arguments passed to the program
- * @argv: An array of strings representing the arguments passed to the program
+ * @argv: An array of strings representing the arguments passed
  *
  * Return: Always 0 (Success)
  */
