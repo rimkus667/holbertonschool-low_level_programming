@@ -4,6 +4,7 @@
  * @argc: o
  * @argv: p
  * Return: 0
+ */
 int main(int argc, char *argv[])
 {
 int i;
