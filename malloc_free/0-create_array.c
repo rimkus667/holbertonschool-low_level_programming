@@ -19,7 +19,7 @@ if (cha == NULL)
 {
 return (NULL);
 }
-for(;s > size; s++)
+for(;s < size; s++)
 {
 cha[s] = c;
 }
