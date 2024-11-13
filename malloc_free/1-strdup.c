@@ -3,28 +3,30 @@
 /**
  * _strdup - prints buffer in hexa
  * @str: the address of memory to print
- int
  * Return: Nothing.
  */
 char *_strdup(char *str)
 {
-int long == 0;
+int longa = 0;
+int i = 0;
 char *tab;
-for(;str[long] != '\0'; long++)
-{
-}
-tab = malloc(size * sizeof(*tab)+1);
-if (str == 0)
+if (str == NULL)
 {
 return (NULL);
 }
+while (str[longa] != '\0')
+{
+longa++;
+}
+tab = malloc((longa + 1) * sizeof(*tab));
 if (tab == NULL)
 {
 return (NULL);
 }
-for(;long > str; long++)
+for (i = 0; i < longa; i++)
 {
-char[tab] = long;
+tab[i] = str[i];
 }
-return(tab);
+tab[longa] = '\0';
+return (tab);
 }
