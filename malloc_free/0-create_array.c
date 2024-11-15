@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * simple_print_buffer - prints buffer in hexa
+ * create_array - prints buffer in hexa
  * @c: the address of memory to print
  * @size: the size of the memory to print
  * Return: Nothing.
@@ -19,9 +19,9 @@ if (cha == NULL)
 {
 return (NULL);
 }
-for(;s < size; s++)
+for (; s < size; s++)
 {
 cha[s] = c;
 }
-return(cha);
+return (cha);
 }

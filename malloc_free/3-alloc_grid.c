@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
  * alloc_grid - prints a grid of integers
- * @grid: the address of the two dimensional grid
  * @width: width of the grid
  * @height: height of the grid
  *
@@ -20,9 +19,9 @@ return (NULL);
 grid = malloc(height * sizeof(int *));
 if (grid == NULL)
 {
-return NULL;
+return (NULL);
 }
-for (;i < height; i++)
+for (; i < height; i++)
 {
 grid[i] = malloc(width * sizeof(int));
 if (grid[i] == NULL)
@@ -34,7 +33,7 @@ free(grid[j]);
 free(grid);
 return (NULL);
 }
-for (;j < width; j++)
+for (; j < width; j++)
 {
 grid[i][j] = 0;
 }
