@@ -5,6 +5,7 @@
  * main - Struct
  * @argc: The operator
  * @argv: The function associated
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {

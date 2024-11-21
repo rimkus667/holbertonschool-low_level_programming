@@ -2,8 +2,8 @@
 #include <stddef.h>
 /**
  * get_op_func - Struct op
- * @op: The operator
- *  @s: The function associated
+ * @s: The function associated
+ * Return: 0
  */
 int (*get_op_func(char *s))(int, int)
 {
