@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * array_iterator - va
- * @array k
+ * array_iterator - variable
+ * @array: k
  * @size: k
  * @action: k
+ * Return: 0
 */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
