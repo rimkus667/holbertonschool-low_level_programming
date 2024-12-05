@@ -12,6 +12,7 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
+size_t len = 0;
 list_t *new_node = malloc(sizeof(list_t));
 if (new_node == NULL)
 {
@@ -23,7 +24,7 @@ if (new_node->str == NULL)
 free(new_node);
 return (NULL);
 }
-while(str[len != '/0')
+while(str[len] != '\0')
 {
 len++;
 }
