@@ -8,17 +8,18 @@
 void print_square(int size)
 {
 int c, s;
-if (size <= '0')
+	if (size <= '0')
 {
-_putchar('\n');
+	_putchar('\n');
+	return;
 }
-for (c = 0; c < size; c++)
+	for (c = 0; c < size; c++)
+{	
+	for (s = 0; s < size; s++)
 {
-for (s = 0; s < size; s++)
-{
-_putchar('#');
+	_putchar('#');
 }
-_putchar('\n');
+	_putchar('\n');
 }
 }
 
