@@ -8,7 +8,7 @@
 void print_square(int size)
 {
 int c, s;
-if (size == '0')
+if (size <= '0')
 {
 _putchar('\n');
 }
@@ -21,3 +21,4 @@ _putchar('#');
 _putchar('\n');
 }
 }
+
