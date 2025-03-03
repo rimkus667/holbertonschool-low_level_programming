@@ -16,5 +16,5 @@ if (a % 2 == 0)
 	_putchar(str[a]);
 }
 }
-	_putchar('\n')
+	_putchar('\n');
 }
