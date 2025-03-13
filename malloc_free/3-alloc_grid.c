@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - Alloue un tableau 2D de dimensions width x height.
- * @width: Nombre de colonnes.
- * @height: Nombre de lignes.
+ * alloc_grid - Allocates a 2D array of size width x height.
+ * @width: Number of columns.
+ * @height: Number of rows.
  *
- * Return: Pointeur vers le tableau 2D ou NULL si l'allocation échoue.
+ * Return: Pointer to the 2D array or NULL if allocation fails.
  */
 int **alloc_grid(int width, int height)
 {
@@ -14,31 +14,27 @@ int **alloc_grid(int width, int height)
 	int **tab;
 
 	if (width <= 0 || height <= 0)
-	{
 		return (NULL);
-	}
-tab = malloc(height * sizeof(int *));
-if (tab ==  NULL)
-{
-	return (NULL);
-}
-for (a = 0; a < height; a++)
-{
-	tab[a] = malloc(width * sizeof(int));
-	if (tab[a] == NULL)
-	{
+
+	tab = malloc(height * sizeof(int *));
+	if (tab == NULL)
 		return (NULL);
-	for (b = 0; b < a; b++)
+
+	for (a = 0; a < height; a++)
 	{
-		free(tab[b]);
-	}
-	free(tab);
-	return (NULL);
-	}
-			for (b = 0; b < width; b++)
-			{
+		tab[a] = malloc(width * sizeof(int));
+		if (tab[a] == NULL)
+		{
+			for (b = 0; b < a; b++)
+				free(tab[b]);
+			free(tab);
+			return (NULL);
+		}
+
+		for (b = 0; b < width; b++)
 			tab[a][b] = 0;
-			}
-}
+	}
+
 	return (tab);
 }
+
