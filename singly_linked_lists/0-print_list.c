@@ -14,7 +14,7 @@ size_t count = 0;
 if (h == NULL)
 		return (0);
 
-	while (h)
+	while (h != NULL)
 	{
 		if (h->str)
 			printf("[%u] %s\n", h->len, h->str);
