@@ -2,7 +2,7 @@
 #include "dog.h"
 /**
  * _strdup - Duplicates a string in new memory
- * @sr: String to duplicate
+ * @str: String to duplicate
  *
  * Return: Pointer to new string, or NULL if it fails
  */
@@ -35,7 +35,7 @@ int _strlen(char *str)
 	}
 	return (i);
 }
- 
+
 /**
  * new_dog - create a new dog
  *
